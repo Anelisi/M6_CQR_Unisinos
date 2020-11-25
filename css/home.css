@@ -1,0 +1,20 @@
+.menu a {
+    background: #ed1f2a;
+    /* background: #fad100; */
+}
+.corpoHome {
+    background: white;
+    padding: 50px;
+    margin-left: 121px;
+}
+
+.compra {
+    width: 120px;
+   margin-left: 17cm;
+   border-radius: 80px;
+   box-shadow: 3px 2px 22px 1px yellow;
+}
+
+#Whats {
+width: 80px;
+}

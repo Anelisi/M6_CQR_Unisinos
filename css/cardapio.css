@@ -1,0 +1,57 @@
+.menu a {
+    background:  #ed1f2a;
+}
+
+
+section {
+    margin: 115px 100px;
+    background: #ffffff;
+    width: 588px;
+    min-height: 300px;
+    border: 2px solid #4a8506;
+    border-radius: 8px;
+    padding: 8px;  
+    height: 300px;
+}
+
+
+h1 {
+    line-height: 8px;
+    text-align: center;
+}
+
+
+.cardapio {
+    display: flex;
+    margin-left: 40px;
+    width: 510px;
+}
+
+.paoG {
+    margin-left: 40px;
+}
+
+.bebidas{
+    margin-left: 40px;
+}
+
+.corpo {
+    display: flex;
+    margin-left: 50px;
+}
+
+#pedido {
+    margin-top: 30px;
+    padding: 40px;
+    width: 450px;
+    height: 450px;
+}
+
+
+.compra {
+    width: 120px;
+   margin-left: 17cm;
+   border-radius: 80px;
+   box-shadow: 3px 2px 22px 1px yellow;
+}
+

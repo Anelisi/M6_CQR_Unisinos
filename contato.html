@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CACHORRO DO R</title>
+    <link rel="shortcut icon" href="img/favicon-96x96.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/geral.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/contato.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <!-- class container carrega elementos de um lado para outro -->
+            <img src="img/logo_3.png" alt="Logo Cachorro Quente do R" height="110" width="200">
+            <h1>Cachorro do R</h1>
+            <img src="img/FaceMascote-removebg-preview.png" alt="mascote" class="oi">
+            <nav class="menu">
+                <a class="active" href="index.html">PRINCIPAL</a>
+                <a href="cardapio.html">CARDÁPIO</a>
+                <a href="contato.html">CONTATO</a>
+                <a href="sobre.html">NOSSA HISTÓRIA</a>
+                <a href="midia.html">R NA MÍDIA</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- INÍCIO CONTEÚDO DO SITE -->
+    <div class="Corpo">
+        <div class="Dados">
+            <p>Endereços: </p>
+            <li>Praça Dom Sebastião Nº 2 <br> frente ao Colégio Rosário</li><br>
+            <li>Rua Dr.Barros Cassal 374</li>
+            <p>Telefone: (51) 3022.1911 </p>
+            <p>
+                <img src="img/ifood.png" alt="ifood" width="100px">
+                <img src="img/facebook.png" alt="facebook" width="100px" >
+                <img src="img/whatsapp.png" alt="whatsapp" width="100px">
+            </p>
+        </div>
+
+        <section>
+            <!-- dentro do iframe, colocar o endereço do mapa (maps, compartilhar, incorporar um mapa, copiar html e substituir toda a linha) -->
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3454.239346072159!2d-51.220669085201635!3d-30.029990537564288!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951979a8deffdd4b%3A0x5d2cc0eda6ebb696!2sCachorro%20quente%20do%20R%20-%20Tradicional%20Carrocinha%20em%20Frente%20ao%20Col%C3%A9gio%20do%20Ros%C3%A1rio!5e0!3m2!1spt-BR!2sbr!4v1606085827910!5m2!1spt-BR!2sbr"
+                width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                tabindex="0"></iframe>
+
+
+
+            <form onsubmit="return validaForm()">
+                <input id="nome" type="text" name="nome" placeholder="Digite seu nome">
+                <!-- placeholder é uma informação do que é/para que serve o campo -->
+                <input id="email" type="text" name="email" placeholder="Digite seu e-mail">
+                <textarea id="mensagem" name="mensagem" placeholder="Digite sua mensagem"></textarea>
+                <button type="submit">ENVIAR =)</button>
+
+                <!-- mensagem de erro, por JS -->
+                <p id="erro"></p>
+            </form>
+        </section>
+    </div>
+
+
+    <!-- FIM CONTEÚDO DO SITE -->
+    <footer>
+        <!-- o footer não precisa ter heading -->
+        PEDIDOS: (51) 3022.1911 | Praça Dom Sebastião Nº 2 (Col. Rosário) | Rua Dr.Barros Cassal 374 - Porto Alegre - RS
+    </footer>
+    <script src="js/contato.js"></script>
+</body>
+
+</html>
